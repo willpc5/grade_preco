@@ -62,3 +62,23 @@ header {
     padding: 15px;
     border-bottom-right-radius: 10px;
 }
+.title {
+    padding: 15px;
+}
+.title1 {
+    font-size: 16px;
+    color: #fffffb;
+}
+.title2 {
+    display: flex;
+}
+.value {
+    color: #fffffb;
+    font-size: 26px; 
+}
+.comments {
+    font-size: 14px;
+    color: #85e0e1;
+    margin-left: 10px;
+    margin-top: 8px;
+}
