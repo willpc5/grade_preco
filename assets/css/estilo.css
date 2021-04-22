@@ -4,6 +4,7 @@
 body {
     padding: 0;
     margin: 0;
+    margin-bottom: 50px;
     background-color: #e6eff6;
 }
 .geral {
@@ -72,6 +73,21 @@ header {
 .title2 {
     display: flex;
 }
+.title3 {
+    color: #caffff;
+}
+.botao {
+    width: 270px;
+    height: 60px;
+    background-color: #bfdf32;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.botao p {
+    color: #fffffb;
+    font-size: 20px;
+}
 .value {
     color: #fffffb;
     font-size: 26px; 
@@ -81,4 +97,37 @@ header {
     color: #85e0e1;
     margin-left: 10px;
     margin-top: 8px;
+}
+.area_texto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+.area_texto1 {
+    color: #fffffb;
+}
+.area_texto2 {
+    color: #85e0e1;
+}
+@media (max-width: 650px) {
+
+    .container {
+        max-width: 330px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .arealeft {
+        border-bottom-left-radius: none;
+    }
+
+    .arearight {
+        border-bottom-left-radius: 10px; 
+    }
+
 }
