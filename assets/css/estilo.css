@@ -4,7 +4,6 @@
 body {
     padding: 0;
     margin: 0;
-    margin-bottom: 50px;
     background-color: #e6eff6;
 }
 .geral {
@@ -12,6 +11,7 @@ body {
     margin-top: 60px;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .container {
     max-width: 800px;
@@ -123,11 +123,28 @@ header {
     }
 
     .arealeft {
-        border-bottom-left-radius: none;
+        border-bottom-left-radius: 0px;
     }
 
     .arearight {
         border-bottom-left-radius: 10px; 
+        margin-bottom: 60px;
+    }
+
+    .text1 {
+        padding-left: 40px;
+    }
+
+    .text2 {
+        padding-left: 40px;
+    }
+    
+    .text3 p {
+        padding-left: 35px;
+    }
+
+    .area {
+        margin-bottom: -200px;
     }
 
 }
